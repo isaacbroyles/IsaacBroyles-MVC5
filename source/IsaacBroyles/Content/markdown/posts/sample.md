@@ -8,3 +8,7 @@ I need to show a few points for this to be a good example:
 * Here's another point to make
 * Hey hey hey
 
+This is a list of things:
+* one
+* two
+* three
