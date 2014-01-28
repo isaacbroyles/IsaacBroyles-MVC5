@@ -130,9 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
+    <Content Include="Content\header.png" />
+    <Content Include="Content\images\fuckitimgoingdeep_avatar.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\markdown\posts\sample.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
