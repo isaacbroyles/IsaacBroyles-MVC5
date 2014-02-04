@@ -1,14 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using IsaacBroyles.Repositories;
 
 namespace IsaacBroyles.Controllers
 {
     public class PostController : Controller
     {
+        private readonly PostRepository _postRepository;
+
+        public PostController(PostRepository postRepository)
+        {
+            _postRepository = postRepository;
+        }
+
         //
         // GET: /Post/
         public ActionResult Index()
@@ -19,7 +22,7 @@ namespace IsaacBroyles.Controllers
         [HandleError]
         public ActionResult Detail(string title)
         {
-            return View(PostRepository.GetPostWithTitle(title));
+            return View(_postRepository.GetPostWithTitle(title));
         }
 	}
 }

@@ -2,7 +2,7 @@
 
 namespace IsaacBroyles.Utilities
 {
-    public class MarkdownUtility
+    public class MarkdownUtility : IFormatter
     {
         public MarkdownUtility()
         {
