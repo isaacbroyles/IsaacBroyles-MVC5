@@ -132,10 +132,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Post.cs" />
+    <Compile Include="Models\SocialPost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\PostRepository.cs" />
     <Compile Include="Data\TextFile.cs" />
+    <Compile Include="Repositories\SocialRepository.cs" />
     <Compile Include="Utilities\IFormatter.cs" />
+    <Compile Include="Utilities\ISocialSource.cs" />
     <Compile Include="Utilities\MarkdownUtility.cs" />
   </ItemGroup>
   <ItemGroup>
