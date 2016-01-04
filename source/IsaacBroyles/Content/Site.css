@@ -24,7 +24,8 @@
 {
     height: 414px;
     width: 100%;
-    background: url(header.png); 
+    background: url(header.png);
+    background-repeat: no-repeat;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
